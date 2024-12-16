@@ -7,4 +7,4 @@ def safe_divide(numerator, denominator):
     except ValueError:
         print("Error: Please enter numeric values only.")
     except ZeroDivisionError:
-        print("Error: cannot divide by zero.")
+        print("Error: Cannot divide by zero.")
